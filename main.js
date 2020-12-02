@@ -17,7 +17,7 @@ const registerUser = (user, socket) => {
     }
   }
 }
-const sendMessage = (msgObj) => {
+const sendMessage = (msgObj, socket) => {
   const str = JSON.stringify(msgObj)
   console.log(str)
   Users[msgObj.user].socket.send(str)
