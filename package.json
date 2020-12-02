@@ -1,0 +1,23 @@
+{
+  "name": "msger-server",
+  "version": "1.0.0",
+  "description": "simple messenger server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "author": "Sergey Orlov",
+  "license": "MIT",
+  "keywords": [
+    "messenger",
+    "server"
+  ],
+  "dependencies": {
+    "ws": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
